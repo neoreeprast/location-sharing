@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LocationSharing</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_cari1">Cari1Activity</string>
+
+    <string-array name="kriteria_array">
+        <item>Semua</item>
+        <item>Pelayanan Umum</item>
+        <item>Rumah Makan</item>
+        <item>Tempat Hiburan</item>
+        <item>Lain - Lain</item>
+    </string-array>
+
+    <string name="title_activity_daftar_lokasi">DaftarLokasiActivity</string>
+    <string name="title_activity_detail_lokasi">DetailLokasiActivity</string>
+    <string name="title_activity_tambah_komentar">TambahKomentarActivity</string>
+
+</resources>
