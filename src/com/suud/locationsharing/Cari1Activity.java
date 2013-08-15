@@ -3,6 +3,7 @@ package com.suud.locationsharing;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
@@ -13,6 +14,7 @@ public class Cari1Activity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_cari1);
+		Log.d("Cari1Activity", "onCreateActivity");
 		 Button btn=(Button)findViewById(R.id.btnkomentar);
 		    btn.setOnClickListener(new View.OnClickListener() {
 				
